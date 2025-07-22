@@ -9,7 +9,7 @@ function generatePhotos () {
     const number = String(i).padStart(5, '0')
     photos.push({
       id: i,
-      src: `/assets/DSC${number}.jpg`,
+      src: `/DSC${number}.jpg`,
       alt: `DSC${number}`
     })
   }
